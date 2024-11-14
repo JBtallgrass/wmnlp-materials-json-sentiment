@@ -68,21 +68,27 @@ The following Learning Objectives:
    ##### Work this way until all tasks have been completed. 
 
 ## Questions
-_* (Question 1) Lyrics printed: 1 pt_ [Birdhouse](
+* (Q1) Lyrics printed: _1 pt_
 
-_* (Question 1) File created and submitted with notebook: 1 pt_
+* (Q1) File created and submitted with notebook:  [Birdhouse](birdhouse.pkl)
 
-_* (Question 2) Correct polarity reported: 1 pt_
+* (Q2) Correct polarity reported: _1 pt_ 
+    Sentiment Polarity Score: 0.04505208333333333
+    The lyrics have a positive connotation.
 
-_* (Question 2) Question answered thoughtfully: 1 pt_
+* (Q2) Question answered thoughtfully: _1 pt_
 
-_* (Question 3) Function defined as specified: 1 pt_
+* (Q3) Function defined as specified: _1 pt_
 
-_* (Question 3) Song lyrics retrieved and stored in separate files (0.5 pts/song): 2 pts_
+* (Q3) Song lyrics retrieved and stored in separate files (0.5 pts/song): _2 pts_
+    Lyrics saved to [Taylor Swift, Love Story](love_story.pkl).
+    Lyrics saved to [Coldplay, Yellow](yellow.pkl).
+    Lyrics saved to [Adele, Hello](hello.pkl).
+    Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl).
 
-_* (Question 4) Polarity scores printed (with appropriate label containing song title, .25 pts/song): 1 pt_
+* (Q4) Polarity scores printed (with an appropriate label containing song title, .25 pts/song): _1 pt_
 
-_* (Question 4) Questions answered thoughtfully: 2 pts_
+* (Q4) Questions answered thoughtfully: _2 pts_
 
 ## Commentary
 
@@ -104,4 +110,3 @@ pip install -U spacy
 python -m spacy download en_core_web_sm
 ```
 ### Special thanks to: https://course.spacy.io/en/ 
-
