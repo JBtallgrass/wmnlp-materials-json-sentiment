@@ -38,13 +38,13 @@ This is an academic project support the Masters of Science in Data Anlytics prog
 The project supports requirements for the Web Mining and Natural Langauage Processing course. the following Learning Objectives: 
     At the end of this module students will be able to:
 
-       1. Describe the characteristics of JSON. (CO3)
+    1. Describe the characteristics of JSON. (CO3)
  
-       2. Describe a basic Natural Language Processing Pipeline. (CO4)
+    2. Describe a basic Natural Language Processing Pipeline. (CO4)
  
-       3. Access web-based APIs for data. (CO2, CO3)
+    3. Access web-based APIs for data. (CO2, CO3)
  
-       4. Apply basic NLP and visualize result. (CO3, CO5, CO6)
+    4. Apply basic NLP and visualize result. (CO3, CO5, CO6)
 
 ## Table of Contents
 - [Overview](#project-overview)
@@ -54,27 +54,56 @@ The project supports requirements for the Web Mining and Natural Langauage Proce
 - [Installation](#installation)
 
 
-## Instructions
-   a. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner. The base repository is available at: https://github.com/wmnlp-materials/json-sentimentLinks to an external site.
-    
-    b. Clone YOUR new repo down to your machine.
+## Instructions 
+### Task 1. Get Started
+Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner.  The base repository is available at: https://github.com/wmnlp-materials/json-sentimentLinks to an external site.
+Clone YOUR new repo down to your machine.
+ 
 
-    c. On your machine, open the Jupyter Notebook for editing. 
-    d. Required: In your Markdown introduction, add a viewable, clickable link to your GitHub repo after your name. Build your brand and make your Markdown introduction clear and professional. 
-    e. Required: Use Markdown headings  (e.g. Question 1) to clearly show your content by each question number. 
-    f. Complete the first task.
-    g. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
-    h. Complete the second task.
-    i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
-   
-   ##### Work this way until all tasks have been completed. 
+### Task 2. Open Notebook and Complete Tasks 
+On your machine, open the Jupyter Notebook for editing. 
+Required: In your Markdown introduction, add a viewable, clickable link to your GitHub repo after your name. Build your brand and make your Markdown introduction clear and professional. 
+Required: Use Markdown headings  (e.g. Question 1) to clearly show your content by each question number. 
+Complete the first task.
+Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+Complete the second task.
+Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+Work this way until all tasks have been completed. 
+
+### Task 3. Export to HTML and Finalize Repo
+Execute each notebook.
+After executing, export each notebook to HTML.
+Commit and push your HTML files to your GitHub repo along with the executed notebooks. 
+Verify you have a professional README.md that introduces your GitHub repository and provides helpful information about your project. 
+Note: Your instructor may review just the notebooks - or just the HTML. Either way, notebooks are web pages, and we are learning to mine web pages. The more familiar you are with web pages, the easier it will be to get the information you need. 
 
 ## Features
-- **Feature 1**: 
+- **Question 1**: 
 
-- **Feature 2**: 
+- **Question 2**: 
 
-- **Feature 3**: 
+- **Question 3**: 
+Lyrics saved to love_story.pkl.
+Lyrics saved to yellow.pkl.
+Lyrics saved to hello.pkl.
+Lyrics saved to shape_of_you.pkl.
+
+Analyzing 'Love Story' by Taylor Swift:
+Polarity score for lyrics in love_story.pkl: 0.049999999999999996
+The polarity score for 'Love Story' by Taylor Swift is 0.049999999999999996
+
+Analyzing 'Yellow' by Coldplay:
+Polarity score for lyrics in yellow.pkl: 0.2430555555555556
+The polarity score for 'Yellow' by Coldplay is 0.2430555555555556
+
+Analyzing 'Hello' by Adele:
+Polarity score for lyrics in hello.pkl: -0.14109195402298852
+The polarity score for 'Hello' by Adele is -0.14109195402298852
+
+Analyzing 'Shape of You' by Ed Sheeran:
+Polarity score for lyrics in shape_of_you.pkl: 0.31929292929292935
+The polarity score for 'Shape of You' by Ed Sheeran is 0.31929292929292935
+
 
 ## Requirements
     a. Markdown introduction with name and clickable link is required.
