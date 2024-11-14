@@ -34,53 +34,64 @@ Please don't hesitate to connect, collaborate, or contact me if our interests al
 # Project Title: Module 4 Requests, JSON, and basic NLP with spaCy
 
 ## Project Overview
-This is an academic project support the Masters of Science in Data Anlytics program at Northwest Missouri State University [NWMSU](https://www.nwmissouri.edu/academics/graduate/masters/data-analytics.htm)
-The project supports requirements for the Web Mining and Natural Langauage Processing course. the following Learning Objectives: 
-    At the end of this module students will be able to:
+This is an academic project supporting the Masters of Science in Data Analytics program at Northwest Missouri State University [NWMSU](https://www.nwmissouri.edu/academics/graduate/masters/data-analytics.htm)
+The project supports requirements for the Web Mining and Natural Langauage Processing course.
 
+The following Learning Objectives: 
+    At the end of this module students will be able to:
        1. Describe the characteristics of JSON. (CO3)
- 
-       2. Describe a basic Natural Language Processing Pipeline. (CO4)
- 
-       3. Access web-based APIs for data. (CO2, CO3)
- 
+       2. Describe a basic Natural Language Processing Pipeline. (CO4) 
+       3. Access web-based APIs for data. (CO2, CO3) 
        4. Apply basic NLP and visualize result. (CO3, CO5, CO6)
 
 ## Table of Contents
 - [Overview](#project-overview)
-- [Instructions] (#Instructions)
-- [Features](#Features)
+- [Instructions](#Instructions)
+- [Questions](#Questions)
+- [Commentary](#Commentary)
 - [Requirements](#Requirements)
 - [Installation](#installation)
 
 
 ## Instructions
-   a. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner. The base repository is available at: https://github.com/wmnlp-materials/json-sentimentLinks to an external site.
+ a. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner. The base repository is available at: [https://github.com/wmnlp-materials/json-sentiment](https://github.com/wmnlp-materials/json-sentiment)
     
-    b. Clone YOUR new repo down to your machine.
-
-    c. On your machine, open the Jupyter Notebook for editing. 
-    d. Required: In your Markdown introduction, add a viewable, clickable link to your GitHub repo after your name. Build your brand and make your Markdown introduction clear and professional. 
-    e. Required: Use Markdown headings  (e.g. Question 1) to clearly show your content by each question number. 
-    f. Complete the first task.
-    g. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
-    h. Complete the second task.
-    i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+ b. Clone YOUR new repo down to your machine.
+ c. On your machine, open the Jupyter Notebook to edit. 
+ d. Required: After your name in your Markdown introduction, add a viewable, clickable link to your GitHub repo. You can build your brand and make        your Markdown introduction clear and professional. 
+ e. Required: Use Markdown headings  (e.g., Question 1) to show your content clearly by each question number. 
+ f. Complete the first task.
+ g. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+ h. Complete the second task.
+ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
    
    ##### Work this way until all tasks have been completed. 
 
-## Features
-- **Feature 1**: 
+## Questions
+_* (Question 1) Lyrics printed: 1 pt_ [Birdhouse](
 
-- **Feature 2**: 
+_* (Question 1) File created and submitted with notebook: 1 pt_
 
-- **Feature 3**: 
+_* (Question 2) Correct polarity reported: 1 pt_
+
+_* (Question 2) Question answered thoughtfully: 1 pt_
+
+_* (Question 3) Function defined as specified: 1 pt_
+
+_* (Question 3) Song lyrics retrieved and stored in separate files (0.5 pts/song): 2 pts_
+
+_* (Question 4) Polarity scores printed (with appropriate label containing song title, .25 pts/song): 1 pt_
+
+_* (Question 4) Questions answered thoughtfully: 2 pts_
+
+## Commentary
+
 
 ## Requirements
-    a. Markdown introduction with name and clickable link is required.
-    b. Markdown Section Headings for each Question are required. 
-    c. Execute your code before exporting HTML and pushing notebooks. (See FAQ for help.)  
-    d. Unexecuted code is not eligible for credit.
+   a. Markdown introduction with name and clickable link is required.
+   b. Markdown Section Headings for each Question are required.
+   c. Execute your code before exporting HTML and pushing notebooks. (See FAQ for help.)
+   d. Unexecuted code is not eligible for credit.
 
 ### IMPORTANT: 
 
@@ -94,4 +105,3 @@ python -m spacy download en_core_web_sm
 ```
 ### Special thanks to: https://course.spacy.io/en/ 
 
-[def]: #usage
