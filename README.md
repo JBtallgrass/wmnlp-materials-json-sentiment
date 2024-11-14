@@ -82,9 +82,13 @@ The following Learning Objectives:
 
 * (Q3) Song lyrics retrieved and stored in separate files (0.5 pts/song): _2 pts_
     Lyrics saved to [Taylor Swift, Love Story](love_story.pkl)
+  
     Lyrics saved to [Coldplay, Yellow](yellow.pkl)
+  
     Lyrics saved to [Adele, Hello](hello.pkl)
+  
     Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl)
+  
 
 * (Q4) Polarity scores printed (with an appropriate label containing song title, .25 pts/song): _1 pt_
 
