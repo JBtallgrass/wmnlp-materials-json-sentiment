@@ -103,9 +103,13 @@ The relationships and analysis show some interesting results by exploring correl
 
 ## Requirements
 a. Markdown introduction with name and clickable link is required
+
 b. Markdown Section Headings for each Question are required
+
 c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
+
 d. Unexecuted code is not eligible for credit
+
 
 ### IMPORTANT: 
 Based on the outputs, I decided to conduct additional analysis and leverage knowledge gaining the Data Foundations course. The continuation analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
