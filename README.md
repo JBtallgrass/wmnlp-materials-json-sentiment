@@ -109,15 +109,16 @@ d. Unexecuted code is not eligible for credit.
 ### IMPORTANT: 
 Based on the outputs, I decided to conduct additional analysis and leverage knowledge gaining the Data Foundations course. The continuation analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
 
+**ChatGPT 4o**  for coding, Markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
+
 ### Installation: 
-"`bash
+```bash
 python -m venv .env
 .env\Scripts\activate
 pip install -U pip setuptools wheel
 pip install -U spacy
 python -m spacy download en_core_web_sm
 ```
-
 ### Special thanks to: https://course.spacy.io/en/ 
 
 ### Additional analysis (experimentation with GenAI and foundations concepts)
