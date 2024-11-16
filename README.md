@@ -102,10 +102,10 @@ The polarity analysis of song lyrics provides valuable insights into their emoti
 The relationships and analysis show some interesting results by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
 
 ## Requirements
-a. Markdown introduction with name and clickable link is required.
-b. Markdown Section Headings for each Question are required.
-c. Execute your code before exporting HTML and pushing notebooks. (See FAQ for help.)
-d. Unexecuted code is not eligible for credit.
+a. Markdown introduction with name and clickable link is required
+b. Markdown Section Headings for each Question are required
+c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
+d. Unexecuted code is not eligible for credit
 
 ### IMPORTANT: 
 Based on the outputs, I decided to conduct additional analysis and leverage knowledge gaining the Data Foundations course. The continuation analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
