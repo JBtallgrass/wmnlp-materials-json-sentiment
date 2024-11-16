@@ -102,6 +102,8 @@ The polarity analysis of song lyrics provides valuable insights into their emoti
 
 This analysis could be expanded by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
 
+Based on the outputs the continuationof analysis was continued below  _See Additaonal Analysis_
+
 ## Requirements
    a. Markdown introduction with name and clickable link is required.
    b. Markdown Section Headings for each Question are required.
@@ -119,3 +121,13 @@ pip install -U spacy
 python -m spacy download en_core_web_sm
 ```
 ### Special thanks to: https://course.spacy.io/en/ 
+ 
+
+ ### Additonal analysis (experimentation with GenAI and foundatiojns concepts)
+[Experimental notebook](ADV-Requests-json-nlp.ipynb)
+ #### Add songs
+ ![Bar Chart](images/BarChart.png)
+ #### Word Cloud
+ ![Word Cloud](images/word_cloud.png)
+ #### Scatter Plot
+ ![Scatter Plot](images/ScatterPlot.png)
