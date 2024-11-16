@@ -87,12 +87,13 @@ Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl).
 * (Q4) Polarity scores printed (with an appropriate label containing song title, .25 pts/song): _1 pt_
 
 * (Q4) Questions answered thoughtfully: _2 pts_
-| Artist | Song | File Name | Polarity Score |
-|---------------|----------------|-------------------|----------------------|
-| Taylor Swift | Love Story | love_story.pkl | 0.0500 |
-| Coldplay | Yellow | yellow.pkl | 0.2431 |
-| Adele | Hello | hello.pkl | -0.1411 |
-| Ed Sheeran | Shape of You | shape_of_you.pkl | 0.3193 |
+
+| Artist       | Song         | File Name        | Polarity Score |
+|--------------|--------------|------------------|----------------|
+| Taylor Swift | Love Story   | love_story.pkl   | 0.0500         |
+| Coldplay     | Yellow       | yellow.pkl       | 0.2431         |
+| Adele        | Hello        | hello.pkl        | -0.1411        |
+| Ed Sheeran   | Shape of You | shape_of_you.pkl | 0.3193         |
 
 ## Commentary
 The polarity analysis of song lyrics provides valuable insights into their emotional tone, revealing patterns that could inform a broader project. Among the analyzed songs, Ed Sheeran's "Shape of You" (0.3193) exhibits the highest positive sentiment, suggesting its upbeat and engaging tone resonates well with audiences. Coldplay's **"Yellow" (0.2431)** reflects a cheerful but slightly more subdued sentiment, aligning with its reflective and romantic theme. In contrast, Adele's **"Hello" (-0.1411)** indicates a melancholy tone, consistent with its reflective and sorrowful narrative. Taylor Swift's **"Love Story" (0.0500)** sits near neutral, reflecting a mix of romantic optimism and conflict resolution.
