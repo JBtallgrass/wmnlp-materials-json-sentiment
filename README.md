@@ -33,6 +33,8 @@ Please don't hesitate to connect, collaborate, or contact me if our interests al
 
 # Project Title: Module 4 Requests, JSON, and basic NLP with spaCy
 
+[HTML File:](requests-json-nlp.html)
+
 ## Project Overview
 This is an academic project supporting the Masters of Science in Data Analytics program at Northwest Missouri State University [NWMSU](https://www.nwmissouri.edu/academics/graduate/masters/data-analytics.htm)
 The project supports the Web Mining and Natural Language Processing course requirements.
