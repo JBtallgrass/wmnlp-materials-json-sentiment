@@ -7629,7 +7629,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [114]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load spaCy model and add TextBlob component</span>
@@ -7695,17 +7695,12 @@ a.anchor-link {
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Error: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">None</span>
 
-<span class="c1"># Example usage:</span>
 <span class="n">filename</span> <span class="o">=</span> <span class="s1">'birdhouse.pkl'</span>
 
 <span class="c1"># First, save the lyrics</span>
 <span class="k">if</span> <span class="n">save_lyrics_to_file</span><span class="p">(</span><span class="s1">'They Might Be Giants'</span><span class="p">,</span> <span class="s1">'Birdhouse in Your Soul'</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
     <span class="c1"># Then analyze them</span>
     <span class="n">polarity</span> <span class="o">=</span> <span class="n">analyze_lyrics</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-
-<span class="c1">#Comment </span>
-<span class="c1"># Sentiment Polarity Score: 0.04505208333333333</span>
-<span class="c1"># The lyrics have a positive connotation.</span>
 </pre></div>
 </div>
 </div>
@@ -8296,12 +8291,12 @@ The polarity score for 'Dynamite' by BTS is 0.16203703703703703
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [122]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load the notebook</span>
@@ -8320,46 +8315,16 @@ The polarity score for 'Dynamite' by BTS is 0.16203703703703703
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>                         Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[121], line 2</span>
-<span class="ansi-green-fg">      1</span> <span style="color: rgb(95,135,135)"># Load the notebook</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">'</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">notebook_name.ipynb</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">'</span><span class="ansi-yellow-bg">)</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> f:
-<span class="ansi-green-fg">      3</span>     notebook <span style="color: rgb(98,98,98)">=</span> nbformat<span style="color: rgb(98,98,98)">.</span>read(f, as_version<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">4</span>)
-<span class="ansi-green-fg">      5</span> <span style="color: rgb(95,135,135)"># Export to HTML</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">c:\Users\balla\Documents\csis-dspython\wmnlp-materials-json-sentiment\.env\Lib\site-packages\IPython\core\interactiveshell.py:324</span>, in <span class="ansi-cyan-fg">_modified_open</span><span class="ansi-blue-intense-fg ansi-bold">(file, *args, **kwargs)</span>
-<span class="ansi-green-fg">    317</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> file <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> {<span style="color: rgb(98,98,98)">0</span>, <span style="color: rgb(98,98,98)">1</span>, <span style="color: rgb(98,98,98)">2</span>}:
-<span class="ansi-green-fg">    318</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ValueError</span>(
-<span class="ansi-green-fg">    319</span>         <span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">IPython won</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">t let you open fd=</span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>file<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)"> by default </span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-fg">    320</span>         <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">as it is likely to crash IPython. If you know what you are doing, </span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-fg">    321</span>         <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">you can use builtins</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)"> open.</span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-fg">    322</span>     )
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 324</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">io_open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">file</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>: [Errno 2] No such file or directory: 'notebook_name.ipynb'</pre>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [123]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># List of pickle files to process</span>
-<span class="n">pickle_files</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"love_story.pkl"</span><span class="p">,</span> <span class="s2">"yellow.pkl"</span><span class="p">,</span> <span class="s2">"hello.pkl"</span><span class="p">,</span> <span class="s2">"shape_of_you.pkl"</span><span class="p">,</span> 
+<span class="n">pickle_files</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"birdhouse.pkl"</span><span class="p">,</span> <span class="s2">"love_story.pkl"</span><span class="p">,</span> <span class="s2">"yellow.pkl"</span><span class="p">,</span> <span class="s2">"hello.pkl"</span><span class="p">,</span> <span class="s2">"shape_of_you.pkl"</span><span class="p">,</span> 
                 <span class="s2">"enter_sandman.pkl"</span><span class="p">,</span> <span class="s2">"bad_guy.pkl"</span><span class="p">,</span> <span class="s2">"no_woman_no_cry.pkl"</span><span class="p">,</span> <span class="s2">"dynamite.pkl"</span><span class="p">]</span>
 
 <span class="c1"># Directory to save text files</span>
@@ -8400,7 +8365,8 @@ File <span class="ansi-green-intense-fg ansi-bold">c:\Users\balla\Documents\csis
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Converted love_story.pkl to lyrics_text_files\love_story.txt
+<pre>Converted birdhouse.pkl to lyrics_text_files\birdhouse.txt
+Converted love_story.pkl to lyrics_text_files\love_story.txt
 Converted yellow.pkl to lyrics_text_files\yellow.txt
 Converted hello.pkl to lyrics_text_files\hello.txt
 Converted shape_of_you.pkl to lyrics_text_files\shape_of_you.txt
