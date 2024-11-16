@@ -139,9 +139,9 @@ d. Unexecuted code is not eligible for credit
 
 
 ### IMPORTANT: 
-    Based on the outputs, I decided to conduct additional analysis and leverage knowledge gained during the Data Foundations course. The continuation of analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
+ Based on the outputs, I decided to conduct additional analysis and leverage knowledge gained during the Data Foundations course. The continuation of analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
 
-    **ChatGPT 4o**  for coding, markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
+**ChatGPT 4o**  for coding, markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
 
 ### Installation of SpaCy: 
 ```bash
