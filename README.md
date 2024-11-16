@@ -79,7 +79,13 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 ## Questions
 * (Q1) Lyrics printed: _1 pt_
 
-* (Q1) File created and submitted with notebook: [Birdhouse](birdhouse.pkl)
+[Birdhouse](birdhouse.txt)
+
+* (Q1) File created and submitted with notebook:
+
+[Birdhouse](birdhouse.pkl)
+
+[Module 4 Notebook](requests-json-nlp.ipynb)
 
 * (Q2) Correct polarity reported: _1 pt_
  
@@ -91,7 +97,10 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 
 * (Q3) Function defined as specified: _1 pt_
 
+![Module 4 Notebook](requests-json-nlp.ipynb)
+
 * (Q3) Song lyrics retrieved and stored in separate files (0.5 pts/song): _2 pts_
+
     Lyrics saved to [Taylor Swift, Love Story](love_story.pkl).
 
     Lyrics saved to [Coldplay, Yellow](yellow.pkl).
@@ -112,20 +121,21 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 
 * (Q4) Questions answered thoughtfully: _2 pts_
 
+
 ## Commentary
-    The polarity analysis of song lyrics provides valuable insights into their emotional tone, revealing patterns that could inform a broader project. Among the analyzed songs, Ed Sheeran's "Shape of You" (0.3193) exhibits the highest positive sentiment, suggesting its upbeat and engaging tone resonates well with audiences. Coldplay's **"Yellow" (0.2431)** reflects a cheerful but slightly more subdued sentiment, aligning with its reflective and romantic theme. In contrast, Adele's **"Hello" (-0.1411)** indicates a melancholy tone, consistent with its reflective and sorrowful narrative. Taylor Swift's **"Love Story" (0.0500)** sits near neutral, reflecting a mix of romantic optimism and conflict resolution.
+The polarity analysis of song lyrics provides valuable insights into their emotional tone, revealing patterns that could inform a broader project. Among the analyzed songs, Ed Sheeran's "Shape of You" (0.3193) exhibits the highest positive sentiment, suggesting its upbeat and engaging tone resonates well with audiences. Coldplay's **"Yellow" (0.2431)** reflects a cheerful but slightly more subdued sentiment, aligning with its reflective and romantic theme. In contrast, Adele's **"Hello" (-0.1411)** indicates a melancholy tone, consistent with its reflective and sorrowful narrative. Taylor Swift's **"Love Story" (0.0500)** sits near neutral, reflecting a mix of romantic optimism and conflict resolution.
 
 ## For Future Analysis
-    The relationships and analysis show some interesting results by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
+The relationships and analysis show some interesting results by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
 
 ## Requirements
-    a. Markdown introduction with name and clickable link is required
+a. Markdown introduction with name and clickable link is required
 
-    b. Markdown Section Headings for each Question are required
+b. Markdown Section Headings for each Question are required
 
-    c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
+c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
 
-    d. Unexecuted code is not eligible for credit
+d. Unexecuted code is not eligible for credit
 
 
 ### IMPORTANT: 
