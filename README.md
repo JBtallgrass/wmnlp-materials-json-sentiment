@@ -83,7 +83,7 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 
 * (Q1) File created and submitted with notebook:
 
-[Birdhouse](birdhouse.pkl)
+[Birdhouse](birdhouse.json)
 
 [Module 4 Notebook](requests-json-nlp.ipynb)
 
@@ -101,23 +101,23 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 
 * (Q3) Song lyrics retrieved and stored in separate files (0.5 pts/song): _2 pts_
 
-    Lyrics saved to [Taylor Swift, Love Story](love_story.pkl).
+    Lyrics saved to [Taylor Swift, Love Story](love_story.json).
 
-    Lyrics saved to [Coldplay, Yellow](yellow.pkl).
+    Lyrics saved to [Coldplay, Yellow](yellow.json).
 
-    Lyrics saved to [Adele, Hello](hello.pkl).
+    Lyrics saved to [Adele, Hello](hello.json).
 
-    Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl).
+    Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.json).
 
 
 * (Q4) Polarity scores printed (with an appropriate label containing song title, .25 pts/song): _1 pt_
 
     | Artist       | Song         | File Name        | Polarity Score |
     |--------------|--------------|------------------|----------------|
-    | Taylor Swift | Love Story   | love_story.pkl   | 0.0500         |
-    | Coldplay     | Yellow       | yellow.pkl       | 0.2431         |
-    | Adele        | Hello        | hello.pkl        | -0.1411        |
-    | Ed Sheeran   | Shape of You | shape_of_you.pkl | 0.3193         |
+    | Taylor Swift | Love Story   | love_story.json   | 0.0500         |
+    | Coldplay     | Yellow       | yellow.json       | 0.2431         |
+    | Adele        | Hello        | hello.json        | -0.1411        |
+    | Ed Sheeran   | Shape of You | shape_of_you.json | 0.3193         |
 
 * (Q4) Questions answered thoughtfully: _2 pts_
 
