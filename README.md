@@ -57,14 +57,23 @@ At the end of this module, students will be able to:
 
 ## Instructions
 a. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner. The base repository is available at [https://github.com/wmnlp-materials/json-sentiment](https://github.com/wmnlp-materials/json-sentiment)
+
 b. Clone YOUR new repo down to your machine.
+
 c. On your machine, open the Jupyter Notebook to edit.
+
 d. Required: After your name in your Markdown introduction, add a viewable, clickable link to your GitHub repo. You can build your brand and make your Markdown introduction clear and professional.
+
 e. Required: Use Markdown headings (e.g., Question 1) to show your content clearly by each question number.
+
 f. Complete the first task.
+
 g. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+
 h. Complete the second task.
+
 i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears correctly.
+
 ##### Work this way until all tasks have been completed. 
 
 ## Questions
@@ -73,50 +82,56 @@ i. Execute the notebook. Commit and push to GitHub. Verify your notebook appears
 * (Q1) File created and submitted with notebook: [Birdhouse](birdhouse.pkl)
 
 * (Q2) Correct polarity reported: _1 pt_
-Sentiment Polarity Score: 0.04505208333333333
-The lyrics have a positive connotation.
+ 
+    Sentiment Polarity Score: 0.04505208333333333
+    
+    The lyrics have a positive connotation.
 
 * (Q2) Question answered thoughtfully: _1 pt_
 
 * (Q3) Function defined as specified: _1 pt_
 
 * (Q3) Song lyrics retrieved and stored in separate files (0.5 pts/song): _2 pts_
-Lyrics saved to [Taylor Swift, Love Story](love_story.pkl).
-Lyrics saved to [Coldplay, Yellow](yellow.pkl).
-Lyrics saved to [Adele, Hello](hello.pkl).
-Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl).
+    Lyrics saved to [Taylor Swift, Love Story](love_story.pkl).
+
+    Lyrics saved to [Coldplay, Yellow](yellow.pkl).
+
+    Lyrics saved to [Adele, Hello](hello.pkl).
+
+    Lyrics saved to [Ed Sheeran, Shape of You](shape_of_you.pkl).
+
 
 * (Q4) Polarity scores printed (with an appropriate label containing song title, .25 pts/song): _1 pt_
 
-| Artist       | Song         | File Name        | Polarity Score |
-|--------------|--------------|------------------|----------------|
-| Taylor Swift | Love Story   | love_story.pkl   | 0.0500         |
-| Coldplay     | Yellow       | yellow.pkl       | 0.2431         |
-| Adele        | Hello        | hello.pkl        | -0.1411        |
-| Ed Sheeran   | Shape of You | shape_of_you.pkl | 0.3193         |
+    | Artist       | Song         | File Name        | Polarity Score |
+    |--------------|--------------|------------------|----------------|
+    | Taylor Swift | Love Story   | love_story.pkl   | 0.0500         |
+    | Coldplay     | Yellow       | yellow.pkl       | 0.2431         |
+    | Adele        | Hello        | hello.pkl        | -0.1411        |
+    | Ed Sheeran   | Shape of You | shape_of_you.pkl | 0.3193         |
 
 * (Q4) Questions answered thoughtfully: _2 pts_
 
 ## Commentary
-The polarity analysis of song lyrics provides valuable insights into their emotional tone, revealing patterns that could inform a broader project. Among the analyzed songs, Ed Sheeran's "Shape of You" (0.3193) exhibits the highest positive sentiment, suggesting its upbeat and engaging tone resonates well with audiences. Coldplay's **"Yellow" (0.2431)** reflects a cheerful but slightly more subdued sentiment, aligning with its reflective and romantic theme. In contrast, Adele's **"Hello" (-0.1411)** indicates a melancholy tone, consistent with its reflective and sorrowful narrative. Taylor Swift's **"Love Story" (0.0500)** sits near neutral, reflecting a mix of romantic optimism and conflict resolution.
+    The polarity analysis of song lyrics provides valuable insights into their emotional tone, revealing patterns that could inform a broader project. Among the analyzed songs, Ed Sheeran's "Shape of You" (0.3193) exhibits the highest positive sentiment, suggesting its upbeat and engaging tone resonates well with audiences. Coldplay's **"Yellow" (0.2431)** reflects a cheerful but slightly more subdued sentiment, aligning with its reflective and romantic theme. In contrast, Adele's **"Hello" (-0.1411)** indicates a melancholy tone, consistent with its reflective and sorrowful narrative. Taylor Swift's **"Love Story" (0.0500)** sits near neutral, reflecting a mix of romantic optimism and conflict resolution.
 
 ## For Future Analysis
-The relationships and analysis show some interesting results by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
+    The relationships and analysis show some interesting results by exploring correlations between polarity and factors like genre, audience reception, or chart performance. Additionally, integrating visualization tools could enhance storytelling, while linking sentiment shifts within lyrics to musical transitions may provide deeper insights into how artists craft emotional journeys. This foundation offers rich potential for interdisciplinary exploration.
 
 ## Requirements
-a. Markdown introduction with name and clickable link is required
+    a. Markdown introduction with name and clickable link is required
 
-b. Markdown Section Headings for each Question are required
+    b. Markdown Section Headings for each Question are required
 
-c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
+    c. Execute your code before exporting HTML and pushing notebooks (See FAQ for help.)
 
-d. Unexecuted code is not eligible for credit
+    d. Unexecuted code is not eligible for credit
 
 
 ### IMPORTANT: 
-Based on the outputs, I decided to conduct additional analysis and leverage knowledge gained during the Data Foundations course. The continuation of analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
+    Based on the outputs, I decided to conduct additional analysis and leverage knowledge gained during the Data Foundations course. The continuation of analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
 
-**ChatGPT 4o**  for coding, markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
+    **ChatGPT 4o**  for coding, markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
 
 ### Installation of SpaCy: 
 ```bash
