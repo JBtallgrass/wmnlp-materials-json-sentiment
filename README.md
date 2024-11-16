@@ -112,17 +112,34 @@ d. Unexecuted code is not eligible for credit
 
 
 ### IMPORTANT: 
-Based on the outputs, I decided to conduct additional analysis and leverage knowledge gaining the Data Foundations course. The continuation analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
+Based on the outputs, I decided to conduct additional analysis and leverage knowledge gained during the Data Foundations course. The continuation of analysis was continued using Generative AI resources to present coding examples and fix errors from my errors below _See Additional Analysis_
 
-**ChatGPT 4o**  for coding, Markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
+**ChatGPT 4o**  for coding, markdown language, and errors and **Grammarly** for editing and refine/validate my initial assessments.
 
-### Installation: 
+### Installation of SpaCy: 
 ```bash
 python -m venv .env
 .env\Scripts\activate
 pip install -U pip setuptools wheel
 pip install -U spacy
 python -m spacy download en_core_web_sm
+```
+### Dependencies utilized
+```bash
+# Required dependencies
+import requests
+import json
+import pickle
+from textblob import TextBlob
+from spacytextblob import spacytextblob
+import spacy
+# Addtional Dependencies 
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from wordcloud import WordCloud, STOPWORDS
+import pandas as pd
 ```
 ### Special thanks to: https://course.spacy.io/en/ 
 
@@ -133,19 +150,22 @@ python -m spacy download en_core_web_sm
 #### Add songs
 
 ![Additional songs](images\add_songs.png)
+
 I generated titles across various genres to see a difference in the sentiment metrics. Prompt: Provide four additional songs from diverse genres.
 
 ![Bar Chart](images/BarChart.png)
-Comments: The bar chart displays eight songs' polarity scores (sentiment), highlighting their overall emotional tone. Positive scores, such as in **Shape of You** and **No Woman No Cry**, indicate upbeat or optimistic sentiments, while negative scores, such as **Enter Sandman** and **Hello**, suggest darker or reflective moods. Songs like **Bad Guy** and **Yellow** exhibit moderate positivity. The chart clearly compares emotional polarity across the songs, emphasizing tonal differences.
+
+**Comments:** The bar chart displays eight songs' polarity scores (sentiment), highlighting their overall emotional tone. Positive scores, such as in **Shape of You** and **No Woman No Cry**, indicate upbeat or optimistic sentiments, while negative scores, such as **Enter Sandman** and **Hello**, suggest darker or reflective moods. Songs like **Bad Guy** and **Yellow** exhibit moderate positivity. The chart clearly compares emotional polarity across the songs, emphasizing tonal differences.
 
 #### Word Cloud
 ![Word Cloud](images/word_cloud.png)
-Comments: The word cloud visually represents the most frequently used words across the lyrics of the analyzed songs. More prominent words like **" na, "** **" love,"** **"know, "** and **"come"** indicate high repetition, highlighting their importance in the songs' themes and emotional tone. Words like **"baby,"** **" woman,"** **"body,"** and **"yeah"** reflect themes of relationships, emotions, and energy commonly found in pop and lyrical songs. The word cloud effectively conveys the lyrics' central ideas and recurring motifs.
+
+**Comments:** The word cloud visually represents the most frequently used words across the lyrics of the analyzed songs. More prominent words like **" na, "** **" love,"** **"know, "** and **"come"** indicate high repetition, highlighting their importance in the songs' themes and emotional tone. Words like **"baby,"** **" woman,"** **"body,"** and **"yeah"** reflect themes of relationships, emotions, and energy commonly found in pop and lyrical songs. The word cloud effectively conveys the lyrics' central ideas and recurring motifs.
 
 #### Scatter Plot
 ![Scatter Plot](images/ScatterPlot.png)
-Comments: The scatter plot compares **polarity score** (sentiment) against **word count** for eight songs. Upbeat songs like **No Woman No Cry** and **Shape of You** have high polarity and word count, reflecting their uplifting and lyrical nature. In contrast, **Enter Sandman** has low polarity and high word count, signaling a darker tone. Shorter songs like **Hello** and **Bad Guy** exhibit lower word counts with varied sentiments. The chart highlights how lyrical length correlates with emotional tone across songs.
+**Comments:** The scatter plot compares **polarity score** (sentiment) against **word count** for eight songs. Upbeat songs like **No Woman No Cry** and **Shape of You** have high polarity and word count, reflecting their uplifting and lyrical nature. In contrast, **Enter Sandman** has low polarity and high word count, signaling a darker tone. Shorter songs like **Hello** and **Bad Guy** exhibit lower word counts with varied sentiments. The chart highlights how lyrical length correlates with emotional tone across songs.
 
 #### Heat Map
 ![Heat Map](images/HeatMap.png)
-Comments: The heatmap visualizes sentiment scores (positive, neutral, or negative) across eight songs' **Verse**, **Chorus**, and **Bridge** segments. It highlights emotional trends, such as the consistently positive sentiment in **Shape of You** and **Dynamite**, and the darker tones in **Enter Sandman**. Variability across segments is evident in songs like **Love Story**, which shifts from positive to negative in the Bridge. The heatmap reveals tonal contrasts and emotional arcs in each song's structure.
+**Comments:** The heatmap visualizes sentiment scores (positive, neutral, or negative) across eight songs' **Verse**, **Chorus**, and **Bridge** segments. It highlights emotional trends, such as the consistently positive sentiment in **Shape of You** and **Dynamite**, and the darker tones in **Enter Sandman**. Variability across segments is evident in songs like **Love Story**, which shifts from positive to negative in the Bridge. The heatmap reveals tonal contrasts and emotional arcs in each song's structure.
